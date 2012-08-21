@@ -1,0 +1,640 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ANCHOR	regex_internal.h	/^  ANCHOR = EPSILON_BIT | 4,$/;"	e	enum:__anon5
+BACK_SLASH	regex_internal.h	/^  BACK_SLASH$/;"	e	enum:__anon5
+BE	regex_internal.h	101;"	d
+BE	regex_internal.h	99;"	d
+BIN_TREE_STORAGE_SIZE	regex_internal.h	460;"	d
+BITSET_WORDS	regex_internal.h	143;"	d
+BITSET_WORD_BITS	regex_internal.h	141;"	d
+BITSET_WORD_MAX	regex_internal.h	139;"	d
+BRACKET_NAME_BUF_SIZE	regcomp.c	2563;"	d	file:
+BUF_FIRST	regex_internal.h	/^  BUF_FIRST = PREV_BEGBUF_CONSTRAINT,$/;"	e	enum:__anon3
+BUF_LAST	regex_internal.h	/^  BUF_LAST = NEXT_ENDBUF_CONSTRAINT,$/;"	e	enum:__anon3
+BUILD_CHARCLASS_LOOP	regcomp.c	3495;"	d	file:
+CHARACTER	regex_internal.h	/^  CHARACTER = 1,$/;"	e	enum:__anon5
+CHAR_CLASS	regex_internal.h	/^  CHAR_CLASS$/;"	e	enum:__anon14
+COLL_ELEM_LEN_MAX	regex_internal.h	108;"	d
+COLL_SYM	regex_internal.h	/^  COLL_SYM,$/;"	e	enum:__anon14
+COMPLEX_BRACKET	regex_internal.h	/^  COMPLEX_BRACKET = 6,$/;"	e	enum:__anon5
+CONCAT	regex_internal.h	/^  CONCAT = 16,$/;"	e	enum:__anon5
+CONTEXT_BEGBUF	regex_internal.h	472;"	d
+CONTEXT_ENDBUF	regex_internal.h	473;"	d
+CONTEXT_NEWLINE	regex_internal.h	471;"	d
+CONTEXT_WORD	regex_internal.h	470;"	d
+END_OF_RE	regex_internal.h	/^  END_OF_RE = 2,$/;"	e	enum:__anon5
+EPSILON_BIT	regex_internal.h	207;"	d
+EQUIV_CLASS	regex_internal.h	/^  EQUIV_CLASS,$/;"	e	enum:__anon14
+INSIDE_NOTWORD	regex_internal.h	/^  INSIDE_NOTWORD = PREV_NOTWORD_CONSTRAINT | NEXT_NOTWORD_CONSTRAINT,$/;"	e	enum:__anon3
+INSIDE_WORD	regex_internal.h	/^  INSIDE_WORD = PREV_WORD_CONSTRAINT | NEXT_WORD_CONSTRAINT,$/;"	e	enum:__anon3
+IS_BEGBUF_CONTEXT	regex_internal.h	477;"	d
+IS_ENDBUF_CONTEXT	regex_internal.h	478;"	d
+IS_EPSILON_NODE	regex_internal.h	318;"	d
+IS_NEWLINE	regex_internal.h	482;"	d
+IS_NEWLINE_CONTEXT	regex_internal.h	476;"	d
+IS_ORDINARY_CONTEXT	regex_internal.h	479;"	d
+IS_WIDE_NEWLINE	regex_internal.h	484;"	d
+IS_WIDE_WORD_CHAR	regex_internal.h	483;"	d
+IS_WORD_CHAR	regex_internal.h	481;"	d
+IS_WORD_CONTEXT	regex_internal.h	475;"	d
+LINE_FIRST	regex_internal.h	/^  LINE_FIRST = PREV_NEWLINE_CONSTRAINT,$/;"	e	enum:__anon3
+LINE_LAST	regex_internal.h	/^  LINE_LAST = NEXT_NEWLINE_CONSTRAINT,$/;"	e	enum:__anon3
+MB_CHAR	regex_internal.h	/^  MB_CHAR,$/;"	e	enum:__anon14
+NEWLINE_CHAR	regex_internal.h	111;"	d
+NEXT_ENDBUF_CONSTRAINT	regex_internal.h	165;"	d
+NEXT_NEWLINE_CONSTRAINT	regex_internal.h	163;"	d
+NEXT_NOTWORD_CONSTRAINT	regex_internal.h	161;"	d
+NEXT_WORD_CONSTRAINT	regex_internal.h	160;"	d
+NON_TYPE	regex_internal.h	/^  NON_TYPE = 0,$/;"	e	enum:__anon5
+NOT_SATISFY_NEXT_CONSTRAINT	regex_internal.h	492;"	d
+NOT_SATISFY_PREV_CONSTRAINT	regex_internal.h	486;"	d
+NOT_WORD_DELIM	regex_internal.h	/^  NOT_WORD_DELIM = NOT_WORD_DELIM_CONSTRAINT$/;"	e	enum:__anon3
+NOT_WORD_DELIM_CONSTRAINT	regex_internal.h	167;"	d
+OP_ALT	regex_internal.h	/^  OP_ALT = EPSILON_BIT | 2,$/;"	e	enum:__anon5
+OP_BACK_REF	regex_internal.h	/^  OP_BACK_REF = 4,$/;"	e	enum:__anon5
+OP_CHARSET_RANGE	regex_internal.h	/^  OP_CHARSET_RANGE,$/;"	e	enum:__anon5
+OP_CLOSE_BRACKET	regex_internal.h	/^  OP_CLOSE_BRACKET,$/;"	e	enum:__anon5
+OP_CLOSE_CHAR_CLASS	regex_internal.h	/^  OP_CLOSE_CHAR_CLASS,$/;"	e	enum:__anon5
+OP_CLOSE_COLL_ELEM	regex_internal.h	/^  OP_CLOSE_COLL_ELEM,$/;"	e	enum:__anon5
+OP_CLOSE_DUP_NUM	regex_internal.h	/^  OP_CLOSE_DUP_NUM,$/;"	e	enum:__anon5
+OP_CLOSE_EQUIV_CLASS	regex_internal.h	/^  OP_CLOSE_EQUIV_CLASS,$/;"	e	enum:__anon5
+OP_CLOSE_SUBEXP	regex_internal.h	/^  OP_CLOSE_SUBEXP = EPSILON_BIT | 1,$/;"	e	enum:__anon5
+OP_DUP_ASTERISK	regex_internal.h	/^  OP_DUP_ASTERISK = EPSILON_BIT | 3,$/;"	e	enum:__anon5
+OP_DUP_PLUS	regex_internal.h	/^  OP_DUP_PLUS = 18,$/;"	e	enum:__anon5
+OP_DUP_QUESTION	regex_internal.h	/^  OP_DUP_QUESTION,$/;"	e	enum:__anon5
+OP_NON_MATCH_LIST	regex_internal.h	/^  OP_NON_MATCH_LIST,$/;"	e	enum:__anon5
+OP_NOTSPACE	regex_internal.h	/^  OP_NOTSPACE,$/;"	e	enum:__anon5
+OP_NOTWORD	regex_internal.h	/^  OP_NOTWORD,$/;"	e	enum:__anon5
+OP_OPEN_BRACKET	regex_internal.h	/^  OP_OPEN_BRACKET,$/;"	e	enum:__anon5
+OP_OPEN_CHAR_CLASS	regex_internal.h	/^  OP_OPEN_CHAR_CLASS,$/;"	e	enum:__anon5
+OP_OPEN_COLL_ELEM	regex_internal.h	/^  OP_OPEN_COLL_ELEM,$/;"	e	enum:__anon5
+OP_OPEN_DUP_NUM	regex_internal.h	/^  OP_OPEN_DUP_NUM,$/;"	e	enum:__anon5
+OP_OPEN_EQUIV_CLASS	regex_internal.h	/^  OP_OPEN_EQUIV_CLASS,$/;"	e	enum:__anon5
+OP_OPEN_SUBEXP	regex_internal.h	/^  OP_OPEN_SUBEXP = EPSILON_BIT | 0,$/;"	e	enum:__anon5
+OP_PERIOD	regex_internal.h	/^  OP_PERIOD = 5,$/;"	e	enum:__anon5
+OP_SPACE	regex_internal.h	/^  OP_SPACE,$/;"	e	enum:__anon5
+OP_UTF8_PERIOD	regex_internal.h	/^  OP_UTF8_PERIOD = 7,$/;"	e	enum:__anon5
+OP_WORD	regex_internal.h	/^  OP_WORD,$/;"	e	enum:__anon5
+PREV_BEGBUF_CONSTRAINT	regex_internal.h	164;"	d
+PREV_NEWLINE_CONSTRAINT	regex_internal.h	162;"	d
+PREV_NOTWORD_CONSTRAINT	regex_internal.h	159;"	d
+PREV_WORD_CONSTRAINT	regex_internal.h	158;"	d
+REGS_FIXED	regex.h	399;"	d
+REGS_REALLOCATE	regex.h	398;"	d
+REGS_UNALLOCATED	regex.h	397;"	d
+REG_BADBR	regex.h	/^  REG_BADBR,		\/* Invalid contents of \\{\\}.  *\/$/;"	e	enum:__anon1
+REG_BADBR_IDX	regcomp.c	162;"	d	file:
+REG_BADPAT	regex.h	/^  REG_BADPAT,		\/* Invalid pattern.  *\/$/;"	e	enum:__anon1
+REG_BADPAT_IDX	regcomp.c	138;"	d	file:
+REG_BADRPT	regex.h	/^  REG_BADRPT,		\/* No preceding re for repetition op.  *\/$/;"	e	enum:__anon1
+REG_BADRPT_IDX	regcomp.c	171;"	d	file:
+REG_EBRACE	regex.h	/^  REG_EBRACE,		\/* Unmatched \\{.  *\/$/;"	e	enum:__anon1
+REG_EBRACE_IDX	regcomp.c	159;"	d	file:
+REG_EBRACK	regex.h	/^  REG_EBRACK,		\/* Unmatched left bracket.  *\/$/;"	e	enum:__anon1
+REG_EBRACK_IDX	regcomp.c	153;"	d	file:
+REG_ECOLLATE	regex.h	/^  REG_ECOLLATE,		\/* Inalid collating element.  *\/$/;"	e	enum:__anon1
+REG_ECOLLATE_IDX	regcomp.c	141;"	d	file:
+REG_ECTYPE	regex.h	/^  REG_ECTYPE,		\/* Invalid character class name.  *\/$/;"	e	enum:__anon1
+REG_ECTYPE_IDX	regcomp.c	144;"	d	file:
+REG_EEND	regex.h	/^  REG_EEND,		\/* Premature end.  *\/$/;"	e	enum:__anon1
+REG_EEND_IDX	regcomp.c	174;"	d	file:
+REG_EESCAPE	regex.h	/^  REG_EESCAPE,		\/* Trailing backslash.  *\/$/;"	e	enum:__anon1
+REG_EESCAPE_IDX	regcomp.c	147;"	d	file:
+REG_ENOSYS	regex.h	/^  REG_ENOSYS = -1,	\/* This will never happen for this implementation.  *\/$/;"	e	enum:__anon1
+REG_EPAREN	regex.h	/^  REG_EPAREN,		\/* Parenthesis imbalance.  *\/$/;"	e	enum:__anon1
+REG_EPAREN_IDX	regcomp.c	156;"	d	file:
+REG_ERANGE	regex.h	/^  REG_ERANGE,		\/* Invalid range end.  *\/$/;"	e	enum:__anon1
+REG_ERANGE_IDX	regcomp.c	165;"	d	file:
+REG_ERPAREN	regex.h	/^  REG_ERPAREN		\/* Unmatched ) or \\); not returned from regcomp.  *\/$/;"	e	enum:__anon1
+REG_ERPAREN_IDX	regcomp.c	180;"	d	file:
+REG_ESIZE	regex.h	/^  REG_ESIZE,		\/* Compiled pattern bigger than 2^16 bytes.  *\/$/;"	e	enum:__anon1
+REG_ESIZE_IDX	regcomp.c	177;"	d	file:
+REG_ESPACE	regex.h	/^  REG_ESPACE,		\/* Ran out of memory.  *\/$/;"	e	enum:__anon1
+REG_ESPACE_IDX	regcomp.c	168;"	d	file:
+REG_ESUBREG	regex.h	/^  REG_ESUBREG,		\/* Invalid back reference.  *\/$/;"	e	enum:__anon1
+REG_ESUBREG_IDX	regcomp.c	150;"	d	file:
+REG_EXTENDED	regex.h	272;"	d
+REG_ICASE	regex.h	276;"	d
+REG_NEWLINE	regex.h	281;"	d
+REG_NOERROR	regex.h	/^  REG_NOERROR = 0,	\/* Success.  *\/$/;"	e	enum:__anon1
+REG_NOERROR_IDX	regcomp.c	132;"	d	file:
+REG_NOMATCH	regex.h	/^  REG_NOMATCH,		\/* Didn't find a match (for regexec).  *\/$/;"	e	enum:__anon1
+REG_NOMATCH_IDX	regcomp.c	135;"	d	file:
+REG_NOSUB	regex.h	285;"	d
+REG_NOTBOL	regex.h	295;"	d
+REG_NOTEOL	regex.h	298;"	d
+REG_STARTEND	regex.h	302;"	d
+RE_BACKSLASH_ESCAPE_IN_LISTS	regex.h	49;"	d
+RE_BK_PLUS_QM	regex.h	54;"	d
+RE_CARET_ANCHORS_HERE	regex.h	168;"	d
+RE_CHAR_CLASSES	regex.h	60;"	d
+RE_CONTEXT_INDEP_ANCHORS	regex.h	74;"	d
+RE_CONTEXT_INDEP_OPS	regex.h	82;"	d
+RE_CONTEXT_INVALID_DUP	regex.h	172;"	d
+RE_CONTEXT_INVALID_OPS	regex.h	86;"	d
+RE_DEBUG	regex.h	154;"	d
+RE_DOT_NEWLINE	regex.h	90;"	d
+RE_DOT_NOT_NULL	regex.h	94;"	d
+RE_DUP_MAX	regex.h	261;"	d
+RE_DUP_MAX	regex.h	264;"	d
+RE_ENABLE_I18N	regex_internal.h	95;"	d
+RE_HAT_LISTS_NOT_NEWLINE	regex.h	98;"	d
+RE_ICASE	regex.h	163;"	d
+RE_INTERVALS	regex.h	103;"	d
+RE_INVALID_INTERVAL_ORD	regex.h	159;"	d
+RE_LIMITED_OPS	regex.h	107;"	d
+RE_NEWLINE_ALT	regex.h	111;"	d
+RE_NO_BK_BRACES	regex.h	116;"	d
+RE_NO_BK_PARENS	regex.h	120;"	d
+RE_NO_BK_REFS	regex.h	124;"	d
+RE_NO_BK_VBAR	regex.h	128;"	d
+RE_NO_EMPTY_RANGES	regex.h	134;"	d
+RE_NO_GNU_OPS	regex.h	146;"	d
+RE_NO_POSIX_BACKTRACKING	regex.h	142;"	d
+RE_NO_SUB	regex.h	176;"	d
+RE_NREGS	regex.h	443;"	d
+RE_SYNTAX_AWK	regex.h	192;"	d
+RE_SYNTAX_ED	regex.h	224;"	d
+RE_SYNTAX_EGREP	regex.h	213;"	d
+RE_SYNTAX_EMACS	regex.h	190;"	d
+RE_SYNTAX_GNU_AWK	regex.h	199;"	d
+RE_SYNTAX_GREP	regex.h	208;"	d
+RE_SYNTAX_POSIX_AWK	regex.h	204;"	d
+RE_SYNTAX_POSIX_BASIC	regex.h	233;"	d
+RE_SYNTAX_POSIX_EGREP	regex.h	219;"	d
+RE_SYNTAX_POSIX_EXTENDED	regex.h	242;"	d
+RE_SYNTAX_POSIX_MINIMAL_BASIC	regex.h	239;"	d
+RE_SYNTAX_POSIX_MINIMAL_EXTENDED	regex.h	250;"	d
+RE_SYNTAX_SED	regex.h	226;"	d
+RE_TRANSLATE_TYPE	regex.h	346;"	d
+RE_UNMATCHED_RIGHT_PAREN_ORD	regex.h	138;"	d
+SBC_MAX	regex_internal.h	106;"	d
+SB_CHAR	regex_internal.h	/^  SB_CHAR,$/;"	e	enum:__anon14
+SIMPLE_BRACKET	regex_internal.h	/^  SIMPLE_BRACKET = 3,$/;"	e	enum:__anon5
+SIZE_MAX	regex_internal.h	91;"	d
+STATE_NODE_CONTAINS	regexec.c	1584;"	d	file:
+SUBEXP	regex_internal.h	/^  SUBEXP = 17,$/;"	e	enum:__anon5
+WIDE_NEWLINE_CHAR	regex_internal.h	112;"	d
+WORD_DELIM	regex_internal.h	/^  WORD_DELIM = WORD_DELIM_CONSTRAINT,$/;"	e	enum:__anon3
+WORD_DELIM_CONSTRAINT	regex_internal.h	166;"	d
+WORD_FIRST	regex_internal.h	/^  WORD_FIRST = PREV_NOTWORD_CONSTRAINT | NEXT_WORD_CONSTRAINT,$/;"	e	enum:__anon3
+WORD_LAST	regex_internal.h	/^  WORD_LAST = PREV_WORD_CONSTRAINT | NEXT_NOTWORD_CONSTRAINT,$/;"	e	enum:__anon3
+_REGEX_H	regex.h	23;"	d
+_REGEX_INTERNAL_H	regex_internal.h	22;"	d
+_RE_DEFINE_LOCALE_FUNCTIONS	regex_internal.h	64;"	d
+_RE_SYNTAX_POSIX_COMMON	regex.h	229;"	d
+__REPB_PREFIX	regex.h	351;"	d
+__REPB_PREFIX	regex.h	353;"	d
+__RE_TRANSLATE_TYPE	regex.h	344;"	d
+__attribute	regex_internal.h	127;"	d
+__attribute	regex_internal.h	129;"	d
+__btowc	regex_internal.h	118;"	d
+__compat_regexec	regexec.c	/^__compat_regexec (const regex_t *__restrict preg,$/;"	f
+__iswctype	regex_internal.h	117;"	d
+__libc_lock_define	regex_internal.h	51;"	d
+__libc_lock_init	regex_internal.h	52;"	d
+__libc_lock_lock	regex_internal.h	53;"	d
+__libc_lock_unlock	regex_internal.h	54;"	d
+__libc_use_alloca	regex_internal.h	433;"	d
+__libc_use_alloca	regex_internal.h	436;"	d
+__mbrtowc	regex_internal.h	119;"	d
+__mempcpy	regex_internal.h	120;"	d
+__regfree	regex_internal.h	122;"	d
+__restrict	regex.h	539;"	d
+__restrict	regex.h	541;"	d
+__restrict_arr	regex.h	549;"	d
+__restrict_arr	regex.h	551;"	d
+__wcrtomb	regex_internal.h	121;"	d
+__wctype	regex_internal.h	116;"	d
+abkref_ents	regex_internal.h	/^  int abkref_ents;$/;"	m	struct:__anon12
+accept_mb	regex_internal.h	/^  unsigned int accept_mb : 1;$/;"	m	struct:__anon7
+accept_mb	regex_internal.h	/^  unsigned int accept_mb : 1;$/;"	m	struct:re_dfastate_t
+acquire_init_state_context	regexec.c	/^acquire_init_state_context (reg_errcode_t *err, const re_match_context_t *mctx,$/;"	f
+active_reg_t	regex.h	/^typedef unsigned long int active_reg_t;$/;"	t
+add_epsilon_src_nodes	regexec.c	/^add_epsilon_src_nodes (const re_dfa_t *dfa, re_node_set *dest_nodes,$/;"	f	file:
+alasts	regex_internal.h	/^  int alasts; \/* Allocation size of LASTS.  *\/$/;"	m	struct:__anon11
+alloc	regex_internal.h	/^  int alloc;$/;"	m	struct:__anon4
+alloc	regex_internal.h	/^  int alloc;$/;"	m	struct:__anon9
+alloc	regex_internal.h	/^  int alloc;$/;"	m	struct:re_fail_stack_t
+alloc	regex_internal.h	/^  int alloc;$/;"	m	struct:re_state_table_entry
+analyze	regcomp.c	/^analyze (regex_t *preg)$/;"	f	file:
+array	regex_internal.h	/^  re_dfastate_t **array;$/;"	m	struct:__anon9
+array	regex_internal.h	/^  re_dfastate_t **array;$/;"	m	struct:re_state_table_entry
+asub_tops	regex_internal.h	/^  int asub_tops;$/;"	m	struct:__anon12
+attribute_hidden	regcomp.c	/^const char __re_error_msgid[] attribute_hidden =$/;"	v
+attribute_hidden	regcomp.c	/^const size_t __re_error_msgid_idx[] attribute_hidden =$/;"	v
+attribute_hidden	regex_internal.h	123;"	d
+bin_tree_storage_t	regex_internal.h	/^struct bin_tree_storage_t$/;"	s
+bin_tree_storage_t	regex_internal.h	/^typedef struct bin_tree_storage_t bin_tree_storage_t;$/;"	t	typeref:struct:bin_tree_storage_t
+bin_tree_t	regex_internal.h	/^struct bin_tree_t$/;"	s
+bin_tree_t	regex_internal.h	/^typedef struct bin_tree_t bin_tree_t;$/;"	t	typeref:struct:bin_tree_t
+bitset_clear	regex_internal.h	150;"	d
+bitset_contain	regex_internal.h	152;"	d
+bitset_copy	regex_internal.h	156;"	d
+bitset_empty	regex_internal.h	154;"	d
+bitset_mask	regex_internal.h	/^bitset_mask (bitset_t dest, const bitset_t src)$/;"	f
+bitset_merge	regex_internal.h	/^bitset_merge (bitset_t dest, const bitset_t src)$/;"	f
+bitset_not	regex_internal.h	/^bitset_not (bitset_t set)$/;"	f
+bitset_set	regex_internal.h	148;"	d
+bitset_set_all	regex_internal.h	155;"	d
+bitset_t	regex_internal.h	/^typedef bitset_word_t bitset_t[BITSET_WORDS];$/;"	t
+bitset_word_t	regex_internal.h	/^typedef unsigned long int bitset_word_t;$/;"	t
+bkref_ents	regex_internal.h	/^  struct re_backref_cache_entry *bkref_ents;$/;"	m	struct:__anon12	typeref:struct:__anon12::re_backref_cache_entry
+bracket_elem_t	regex_internal.h	/^} bracket_elem_t;$/;"	t	typeref:struct:__anon15
+bracket_elem_type	regex_internal.h	/^} bracket_elem_type;$/;"	t	typeref:enum:__anon14
+bufs_len	regex_internal.h	/^  int bufs_len;$/;"	m	struct:re_string_t
+build_charclass	regcomp.c	/^build_charclass (RE_TRANSLATE_TYPE trans, bitset_t sbcset,$/;"	f	file:
+build_charclass_op	regcomp.c	/^build_charclass_op (re_dfa_t *dfa, RE_TRANSLATE_TYPE trans,$/;"	f	file:
+build_collating_symbol	regcomp.c	/^build_collating_symbol (bitset_t sbcset, re_charset_t *mbcset,$/;"	f	file:
+build_equiv_class	regcomp.c	/^build_equiv_class (bitset_t sbcset, re_charset_t *mbcset,$/;"	f	file:
+build_range_exp	regcomp.c	/^build_range_exp (bitset_t sbcset, re_charset_t *mbcset, int *range_alloc,$/;"	f	file:
+build_sifted_states	regexec.c	/^build_sifted_states (const re_match_context_t *mctx, re_sift_context_t *sctx,$/;"	f	file:
+build_trtable	regexec.c	/^build_trtable (const re_dfa_t *dfa, re_dfastate_t *state)$/;"	f	file:
+build_upper_buffer	regex_internal.c	/^build_upper_buffer (re_string_t *pstr)$/;"	f	file:
+build_wcs_buffer	regex_internal.c	/^build_wcs_buffer (re_string_t *pstr)$/;"	f	file:
+build_wcs_upper_buffer	regex_internal.c	/^build_wcs_upper_buffer (re_string_t *pstr)$/;"	f	file:
+c	regex_internal.h	/^    unsigned char c;		\/* for CHARACTER *\/$/;"	m	union:__anon7::__anon8
+calc_eclosure	regcomp.c	/^calc_eclosure (re_dfa_t *dfa)$/;"	f	file:
+calc_eclosure_iter	regcomp.c	/^calc_eclosure_iter (re_node_set *new_set, re_dfa_t *dfa, int node, int root)$/;"	f	file:
+calc_first	regcomp.c	/^calc_first (void *extra, bin_tree_t *node)$/;"	f	file:
+calc_inveclosure	regcomp.c	/^calc_inveclosure (re_dfa_t *dfa)$/;"	f	file:
+calc_next	regcomp.c	/^calc_next (void *extra, bin_tree_t *node)$/;"	f	file:
+calc_state_hash	regex_internal.c	/^calc_state_hash (const re_node_set *nodes, unsigned int context)$/;"	f	file:
+ch	regex_internal.h	/^    unsigned char ch;$/;"	m	union:__anon15::__anon16
+char_classes	regex_internal.h	/^  wctype_t *char_classes;$/;"	m	struct:__anon6
+check_arrival	regexec.c	/^check_arrival (re_match_context_t *mctx, state_array_t *path, int top_node,$/;"	f	file:
+check_arrival_add_next_nodes	regexec.c	/^check_arrival_add_next_nodes (re_match_context_t *mctx, int str_idx,$/;"	f	file:
+check_arrival_expand_ecl	regexec.c	/^check_arrival_expand_ecl (const re_dfa_t *dfa, re_node_set *cur_nodes,$/;"	f	file:
+check_arrival_expand_ecl_sub	regexec.c	/^check_arrival_expand_ecl_sub (const re_dfa_t *dfa, re_node_set *dst_nodes,$/;"	f	file:
+check_dst_limits	regexec.c	/^check_dst_limits (const re_match_context_t *mctx, re_node_set *limits,$/;"	f	file:
+check_dst_limits_calc_pos	regexec.c	/^check_dst_limits_calc_pos (const re_match_context_t *mctx, int limit,$/;"	f	file:
+check_dst_limits_calc_pos_1	regexec.c	/^check_dst_limits_calc_pos_1 (const re_match_context_t *mctx, int boundaries,$/;"	f	file:
+check_halt_node_context	regexec.c	/^check_halt_node_context (const re_dfa_t *dfa, int node, unsigned int context)$/;"	f	file:
+check_halt_state_context	regexec.c	/^check_halt_state_context (const re_match_context_t *mctx,$/;"	f	file:
+check_matching	regexec.c	/^check_matching (re_match_context_t *mctx, int fl_longest_match,$/;"	f	file:
+check_node_accept	regexec.c	/^check_node_accept (const re_match_context_t *mctx, const re_token_t *node,$/;"	f	file:
+check_node_accept_bytes	regexec.c	/^check_node_accept_bytes (const re_dfa_t *dfa, int node_idx,$/;"	f	file:
+check_subexp_limits	regexec.c	/^check_subexp_limits (const re_dfa_t *dfa, re_node_set *dest_nodes,$/;"	f	file:
+check_subexp_matching_top	regexec.c	/^check_subexp_matching_top (re_match_context_t *mctx, re_node_set *cur_nodes,$/;"	f	file:
+clean_state_log_if_needed	regexec.c	/^clean_state_log_if_needed (re_match_context_t *mctx, int next_state_log_idx)$/;"	f	file:
+coll_syms	regex_internal.h	/^  int32_t *coll_syms;$/;"	m	struct:__anon6
+completed_bkref_map	regex_internal.h	/^  bitset_word_t completed_bkref_map;$/;"	m	struct:re_dfa_t
+constraint	regex_internal.h	/^  unsigned int constraint : 10;	\/* context constraint *\/$/;"	m	struct:__anon7
+context	regex_internal.h	/^  unsigned int context : 4;$/;"	m	struct:re_dfastate_t
+create_cd_newstate	regex_internal.c	/^create_cd_newstate (const re_dfa_t *dfa, const re_node_set *nodes,$/;"	f	file:
+create_ci_newstate	regex_internal.c	/^create_ci_newstate (const re_dfa_t *dfa, const re_node_set *nodes,$/;"	f	file:
+create_initial_state	regcomp.c	/^create_initial_state (re_dfa_t *dfa)$/;"	f	file:
+create_token_tree	regcomp.c	/^create_token_tree (re_dfa_t *dfa, bin_tree_t *left, bin_tree_t *right,$/;"	f	file:
+create_tree	regcomp.c	/^create_tree (re_dfa_t *dfa, bin_tree_t *left, bin_tree_t *right,$/;"	f	file:
+ctx_type	regex_internal.h	/^    re_context_type ctx_type;	\/* for ANCHOR *\/$/;"	m	union:__anon7::__anon8
+cur_idx	regex_internal.h	/^  int cur_idx;$/;"	m	struct:re_string_t
+cur_state	regex_internal.h	/^  mbstate_t cur_state;$/;"	m	struct:re_string_t
+data	regex_internal.h	/^  bin_tree_t data[BIN_TREE_STORAGE_SIZE];$/;"	m	struct:bin_tree_storage_t
+dfa	regex_internal.h	/^  const re_dfa_t *const dfa;$/;"	m	struct:__anon12
+dfa	regex_internal.h	/^  const re_dfa_t *dfa;$/;"	m	struct:__anon12
+duplicate_node	regcomp.c	/^duplicate_node (re_dfa_t *dfa, int org_idx, unsigned int constraint)$/;"	f	file:
+duplicate_node_closure	regcomp.c	/^duplicate_node_closure (re_dfa_t *dfa, int top_org_node, int top_clone_node,$/;"	f	file:
+duplicate_tree	regcomp.c	/^duplicate_tree (const bin_tree_t *root, re_dfa_t *dfa)$/;"	f	file:
+duplicated	regex_internal.h	/^  unsigned int duplicated : 1;$/;"	m	struct:__anon7
+eclosures	regex_internal.h	/^  re_node_set *eclosures;$/;"	m	struct:re_dfa_t
+edests	regex_internal.h	/^  re_node_set *edests;$/;"	m	struct:re_dfa_t
+eflags	regex_internal.h	/^  int eflags;$/;"	m	struct:__anon12
+elems	regex_internal.h	/^  int *elems;$/;"	m	struct:__anon4
+end	regex.h	/^  regoff_t *end;$/;"	m	struct:re_registers
+entrance_nodes	regex_internal.h	/^  re_node_set *entrance_nodes;$/;"	m	struct:re_dfastate_t
+eps_reachable_subexps_map	regex_internal.h	/^  unsigned short int eps_reachable_subexps_map;$/;"	m	struct:re_backref_cache_entry
+eps_via_nodes	regex_internal.h	/^  re_node_set eps_via_nodes;$/;"	m	struct:re_fail_stack_ent_t
+equiv_classes	regex_internal.h	/^  int32_t *equiv_classes;$/;"	m	struct:__anon6
+expand_bkref_cache	regexec.c	/^expand_bkref_cache (re_match_context_t *mctx, re_node_set *cur_nodes,$/;"	f	file:
+extend_buffers	regexec.c	/^extend_buffers (re_match_context_t *mctx)$/;"	f	file:
+fetch_number	regcomp.c	/^fetch_number (re_string_t *input, re_token_t *token, reg_syntax_t syntax)$/;"	f	file:
+fetch_token	regcomp.c	/^fetch_token (re_token_t *result, re_string_t *input, reg_syntax_t syntax)$/;"	f	file:
+find_collation_sequence_value	regexec.c	/^find_collation_sequence_value (const unsigned char *mbs, size_t mbs_len)$/;"	f	file:
+find_recover_state	regexec.c	/^find_recover_state (reg_errcode_t *err, re_match_context_t *mctx)$/;"	f
+find_subexp_node	regexec.c	/^find_subexp_node (const re_dfa_t *dfa, const re_node_set *nodes,$/;"	f	file:
+first	regex_internal.h	/^  struct bin_tree_t *first;$/;"	m	struct:bin_tree_t	typeref:struct:bin_tree_t::bin_tree_t
+free_charset	regcomp.c	/^free_charset (re_charset_t *cset)$/;"	f	file:
+free_dfa_content	regcomp.c	/^free_dfa_content (re_dfa_t *dfa)$/;"	f	file:
+free_fail_stack_return	regexec.c	/^free_fail_stack_return (struct re_fail_stack_t *fs)$/;"	f	file:
+free_state	regex_internal.c	/^free_state (re_dfastate_t *state)$/;"	f	file:
+free_token	regcomp.c	/^free_token (re_token_t *node)$/;"	f	file:
+free_tree	regcomp.c	/^free_tree (void *extra, bin_tree_t *node)$/;"	f	file:
+free_workarea_compile	regcomp.c	/^free_workarea_compile (regex_t *preg)$/;"	f	file:
+get_subexp	regexec.c	/^get_subexp (re_match_context_t *mctx, int bkref_node, int bkref_str_idx)$/;"	f	file:
+get_subexp_sub	regexec.c	/^get_subexp_sub (re_match_context_t *mctx, const re_sub_match_top_t *sub_top,$/;"	f	file:
+gettext	regex_internal.h	75;"	d
+gettext	regex_internal.h	76;"	d
+gettext	regex_internal.h	80;"	d
+gettext_noop	regex_internal.h	86;"	d
+group_nodes_into_DFAstates	regexec.c	/^group_nodes_into_DFAstates (const re_dfa_t *dfa, const re_dfastate_t *state,$/;"	f	file:
+halt	regex_internal.h	/^  unsigned int halt : 1;$/;"	m	struct:re_dfastate_t
+has_backref	regex_internal.h	/^  unsigned int has_backref : 1;$/;"	m	struct:re_dfastate_t
+has_constraint	regex_internal.h	/^  unsigned int has_constraint : 1;$/;"	m	struct:re_dfastate_t
+has_mb_node	regex_internal.h	/^  unsigned int has_mb_node : 1;$/;"	m	struct:re_dfa_t
+has_plural_match	regex_internal.h	/^  unsigned int has_plural_match : 1;$/;"	m	struct:re_dfa_t
+hash	regex_internal.h	/^  unsigned int hash;$/;"	m	struct:re_dfastate_t
+icase	regex_internal.h	/^  unsigned char icase;$/;"	m	struct:re_string_t
+idx	regex_internal.h	/^    int idx;			\/* for BACK_REF *\/$/;"	m	union:__anon7::__anon8
+idx	regex_internal.h	/^  int idx;$/;"	m	struct:re_fail_stack_ent_t
+init_dfa	regcomp.c	/^init_dfa (re_dfa_t *dfa, size_t pat_len)$/;"	f	file:
+init_node	regex_internal.h	/^  int init_node;$/;"	m	struct:re_dfa_t
+init_state	regex_internal.h	/^  re_dfastate_t *init_state;$/;"	m	struct:re_dfa_t
+init_state_begbuf	regex_internal.h	/^  re_dfastate_t *init_state_begbuf;$/;"	m	struct:re_dfa_t
+init_state_nl	regex_internal.h	/^  re_dfastate_t *init_state_nl;$/;"	m	struct:re_dfa_t
+init_state_word	regex_internal.h	/^  re_dfastate_t *init_state_word;$/;"	m	struct:re_dfa_t
+init_word_char	regcomp.c	/^init_word_char (re_dfa_t *dfa)$/;"	f	file:
+inline	regex_internal.h	102;"	d
+input	regex_internal.h	/^  re_string_t input;$/;"	m	struct:__anon12
+internal_function	regex_internal.h	383;"	d
+internal_function	regex_internal.h	385;"	d
+inveclosure	regex_internal.h	/^  re_node_set inveclosure;$/;"	m	struct:re_dfastate_t
+inveclosures	regex_internal.h	/^  re_node_set *inveclosures;$/;"	m	struct:re_dfa_t
+is_utf8	regex_internal.h	/^  unsigned char is_utf8;$/;"	m	struct:re_string_t
+is_utf8	regex_internal.h	/^  unsigned int is_utf8 : 1;$/;"	m	struct:re_dfa_t
+isblank	regex_internal.h	59;"	d
+last_node	regex_internal.h	/^  int last_node;$/;"	m	struct:__anon12
+last_node	regex_internal.h	/^  int last_node;$/;"	m	struct:__anon13
+last_str_idx	regex_internal.h	/^  int last_str_idx;$/;"	m	struct:__anon13
+lasts	regex_internal.h	/^  re_sub_match_last_t **lasts;$/;"	m	struct:__anon11
+left	regex_internal.h	/^  struct bin_tree_t *left;$/;"	m	struct:bin_tree_t	typeref:struct:bin_tree_t::bin_tree_t
+len	regex_internal.h	/^  int len;$/;"	m	struct:re_string_t
+length	regexec.c	/^    int length, start, range;$/;"	v
+length1	regexec.c	/^    int length1, length2, start, range, stop;$/;"	v
+length1	regexec.c	/^    int length1, length2, start, stop;$/;"	v
+length2	regexec.c	/^    int length1, length2, start, range, stop;$/;"	v
+length2	regexec.c	/^    int length1, length2, start, stop;$/;"	v
+libc_freeres_fn	regcomp.c	/^libc_freeres_fn (free_mem)$/;"	f
+limited_states	regex_internal.h	/^  re_dfastate_t **limited_states;$/;"	m	struct:__anon13
+limits	regex_internal.h	/^  re_node_set limits;$/;"	m	struct:__anon13
+link_nfa_nodes	regcomp.c	/^link_nfa_nodes (void *extra, bin_tree_t *node)$/;"	f	file:
+lower_subexp	regcomp.c	/^lower_subexp (reg_errcode_t *err, regex_t *preg, bin_tree_t *node)$/;"	f	file:
+lower_subexps	regcomp.c	/^lower_subexps (void *extra, bin_tree_t *node)$/;"	f	file:
+map_notascii	regex_internal.h	/^  unsigned char map_notascii;$/;"	m	struct:re_string_t
+map_notascii	regex_internal.h	/^  unsigned int map_notascii : 1;$/;"	m	struct:re_dfa_t
+mark_opt_subexp	regcomp.c	/^mark_opt_subexp (void *extra, bin_tree_t *node)$/;"	f	file:
+match_ctx_add_entry	regexec.c	/^match_ctx_add_entry (re_match_context_t *mctx, int node, int str_idx, int from,$/;"	f	file:
+match_ctx_add_sublast	regexec.c	/^match_ctx_add_sublast (re_sub_match_top_t *subtop, int node, int str_idx)$/;"	f	file:
+match_ctx_add_subtop	regexec.c	/^match_ctx_add_subtop (re_match_context_t *mctx, int node, int str_idx)$/;"	f	file:
+match_ctx_clean	regexec.c	/^match_ctx_clean (re_match_context_t *mctx)$/;"	f	file:
+match_ctx_free	regexec.c	/^match_ctx_free (re_match_context_t *mctx)$/;"	f	file:
+match_ctx_init	regexec.c	/^match_ctx_init (re_match_context_t *mctx, int eflags, int n)$/;"	f	file:
+match_last	regex_internal.h	/^  int match_last;$/;"	m	struct:__anon12
+max_mb_elem_len	regex_internal.h	/^  int max_mb_elem_len;$/;"	m	struct:__anon12
+mb_cur_max	regex_internal.h	/^  int mb_cur_max;$/;"	m	struct:re_dfa_t
+mb_cur_max	regex_internal.h	/^  int mb_cur_max;$/;"	m	struct:re_string_t
+mb_partial	regex_internal.h	/^  unsigned int mb_partial : 1;$/;"	m	struct:__anon7
+mbchars	regex_internal.h	/^  wchar_t *mbchars;$/;"	m	struct:__anon6
+mbcset	regex_internal.h	/^    re_charset_t *mbcset;	\/* for COMPLEX_BRACKET *\/$/;"	m	union:__anon7::__anon8
+mbs	regex_internal.h	/^  unsigned char *mbs;$/;"	m	struct:re_string_t
+mbs_allocated	regex_internal.h	/^  unsigned char mbs_allocated;$/;"	m	struct:re_string_t
+merge_state_array	regexec.c	/^merge_state_array (const re_dfa_t *dfa, re_dfastate_t **dst,$/;"	f	file:
+merge_state_with_log	regexec.c	/^merge_state_with_log (reg_errcode_t *err, re_match_context_t *mctx,$/;"	f
+more	regex_internal.h	/^  char more;$/;"	m	struct:re_backref_cache_entry
+name	regex_internal.h	/^    unsigned char *name;$/;"	m	union:__anon15::__anon16
+nbackref	regex_internal.h	/^  int nbackref; \/* The number of backreference in this dfa.  *\/$/;"	m	struct:re_dfa_t
+nbkref_ents	regex_internal.h	/^  int nbkref_ents;$/;"	m	struct:__anon12
+nchar_classes	regex_internal.h	/^  int nchar_classes;$/;"	m	struct:__anon6
+ncoll_syms	regex_internal.h	/^  int ncoll_syms;$/;"	m	struct:__anon6
+nelem	regex_internal.h	/^  int nelem;$/;"	m	struct:__anon4
+nequiv_classes	regex_internal.h	/^  int nequiv_classes;$/;"	m	struct:__anon6
+newline_anchor	regex_internal.h	/^  unsigned char newline_anchor;$/;"	m	struct:re_string_t
+next	regex_internal.h	/^  struct bin_tree_storage_t *next;$/;"	m	struct:bin_tree_storage_t	typeref:struct:bin_tree_storage_t::bin_tree_storage_t
+next	regex_internal.h	/^  struct bin_tree_t *next;$/;"	m	struct:bin_tree_t	typeref:struct:bin_tree_t::bin_tree_t
+next_idx	regex_internal.h	/^  int next_idx;$/;"	m	struct:__anon9
+nexts	regex_internal.h	/^  int *nexts;$/;"	m	struct:re_dfa_t
+nlasts	regex_internal.h	/^  int nlasts; \/* The number of LASTS.  *\/$/;"	m	struct:__anon11
+nmbchars	regex_internal.h	/^  int nmbchars;$/;"	m	struct:__anon6
+node	regex_internal.h	/^  int node;$/;"	m	struct:__anon10
+node	regex_internal.h	/^  int node;$/;"	m	struct:__anon11
+node	regex_internal.h	/^  int node;$/;"	m	struct:re_backref_cache_entry
+node	regex_internal.h	/^  int node;$/;"	m	struct:re_fail_stack_ent_t
+node_idx	regex_internal.h	/^  int node_idx;$/;"	m	struct:bin_tree_t
+nodes	regex_internal.h	/^  re_node_set nodes;$/;"	m	struct:re_dfastate_t
+nodes	regex_internal.h	/^  re_token_t *nodes;$/;"	m	struct:re_dfa_t
+nodes_alloc	regex_internal.h	/^  size_t nodes_alloc;$/;"	m	struct:re_dfa_t
+nodes_len	regex_internal.h	/^  size_t nodes_len;$/;"	m	struct:re_dfa_t
+non_eps_nodes	regex_internal.h	/^  re_node_set non_eps_nodes;$/;"	m	struct:re_dfastate_t
+non_match	regex_internal.h	/^  unsigned int non_match : 1;$/;"	m	struct:__anon6
+nranges	regex_internal.h	/^  int nranges;$/;"	m	struct:__anon6
+nsub_tops	regex_internal.h	/^  int nsub_tops;$/;"	m	struct:__anon12
+num	regex_internal.h	/^  int num;$/;"	m	struct:re_fail_stack_t
+num	regex_internal.h	/^  int num;$/;"	m	struct:re_state_table_entry
+num_regs	regex.h	/^  unsigned num_regs;$/;"	m	struct:re_registers
+offsets	regex_internal.h	/^  int *offsets;$/;"	m	struct:re_string_t
+offsets_needed	regex_internal.h	/^  unsigned char offsets_needed;$/;"	m	struct:re_string_t
+opr	regex_internal.h	/^  } opr;$/;"	m	struct:__anon15	typeref:union:__anon15::__anon16
+opr	regex_internal.h	/^  } opr;$/;"	m	struct:__anon7	typeref:union:__anon7::__anon8
+opt_subexp	regex_internal.h	/^  unsigned int opt_subexp : 1;$/;"	m	struct:__anon7
+optimize_subexps	regcomp.c	/^optimize_subexps (void *extra, bin_tree_t *node)$/;"	f	file:
+optimize_utf8	regcomp.c	/^optimize_utf8 (re_dfa_t *dfa)$/;"	f	file:
+org_indices	regex_internal.h	/^  int *org_indices;$/;"	m	struct:re_dfa_t
+parent	regex_internal.h	/^  struct bin_tree_t *parent;$/;"	m	struct:bin_tree_t	typeref:struct:bin_tree_t::bin_tree_t
+parse	regcomp.c	/^parse (re_string_t *regexp, regex_t *preg, reg_syntax_t syntax,$/;"	f	file:
+parse_bracket_element	regcomp.c	/^parse_bracket_element (bracket_elem_t *elem, re_string_t *regexp,$/;"	f	file:
+parse_bracket_exp	regcomp.c	/^parse_bracket_exp (re_string_t *regexp, re_dfa_t *dfa, re_token_t *token,$/;"	f	file:
+parse_bracket_symbol	regcomp.c	/^parse_bracket_symbol (bracket_elem_t *elem, re_string_t *regexp,$/;"	f	file:
+parse_branch	regcomp.c	/^parse_branch (re_string_t *regexp, regex_t *preg, re_token_t *token,$/;"	f	file:
+parse_dup_op	regcomp.c	/^parse_dup_op (bin_tree_t *elem, re_string_t *regexp, re_dfa_t *dfa,$/;"	f	file:
+parse_expression	regcomp.c	/^parse_expression (re_string_t *regexp, regex_t *preg, re_token_t *token,$/;"	f	file:
+parse_reg_exp	regcomp.c	/^parse_reg_exp (re_string_t *regexp, regex_t *preg, re_token_t *token,$/;"	f	file:
+parse_sub_exp	regcomp.c	/^parse_sub_exp (re_string_t *regexp, regex_t *preg, re_token_t *token,$/;"	f	file:
+path	regex_internal.h	/^  state_array_t *path;$/;"	m	struct:__anon11
+path	regex_internal.h	/^  state_array_t path;$/;"	m	struct:__anon10
+peek_token	regcomp.c	/^peek_token (re_token_t *token, re_string_t *input, reg_syntax_t syntax)$/;"	f	file:
+peek_token_bracket	regcomp.c	/^peek_token_bracket (re_token_t *token, re_string_t *input, reg_syntax_t syntax)$/;"	f	file:
+pop_fail_stack	regexec.c	/^pop_fail_stack (struct re_fail_stack_t *fs, int *pidx, int nregs,$/;"	f	file:
+postorder	regcomp.c	/^postorder (bin_tree_t *root, reg_errcode_t (fn (void *, bin_tree_t *)),$/;"	f	file:
+preorder	regcomp.c	/^preorder (bin_tree_t *root, reg_errcode_t (fn (void *, bin_tree_t *)),$/;"	f	file:
+proceed_next_node	regexec.c	/^proceed_next_node (const re_match_context_t *mctx, int nregs, regmatch_t *regs,$/;"	f	file:
+prune_impossible_nodes	regexec.c	/^prune_impossible_nodes (mctx)$/;"	f	file:
+push_fail_stack	regexec.c	/^push_fail_stack (struct re_fail_stack_t *fs, int str_idx, int dest_node,$/;"	f	file:
+range	regexec.c	/^    int length, start, range;$/;"	v
+range	regexec.c	/^    int length1, length2, start, range, stop;$/;"	v
+range_ends	regex_internal.h	/^  uint32_t *range_ends;$/;"	m	struct:__anon6
+range_ends	regex_internal.h	/^  wchar_t *range_ends;$/;"	m	struct:__anon6
+range_starts	regex_internal.h	/^  uint32_t *range_starts;$/;"	m	struct:__anon6
+range_starts	regex_internal.h	/^  wchar_t *range_starts;$/;"	m	struct:__anon6
+raw_len	regex_internal.h	/^  int raw_len;$/;"	m	struct:re_string_t
+raw_mbs	regex_internal.h	/^  const unsigned char *raw_mbs;$/;"	m	struct:re_string_t
+raw_mbs_idx	regex_internal.h	/^  int raw_mbs_idx;$/;"	m	struct:re_string_t
+raw_stop	regex_internal.h	/^  int raw_stop;$/;"	m	struct:re_string_t
+re_acquire_state	regex_internal.c	/^re_acquire_state (reg_errcode_t *err, const re_dfa_t *dfa,$/;"	f	file:
+re_acquire_state_context	regex_internal.c	/^re_acquire_state_context (reg_errcode_t *err, const re_dfa_t *dfa,$/;"	f	file:
+re_backref_cache_entry	regex_internal.h	/^struct re_backref_cache_entry$/;"	s
+re_bitset_ptr_t	regex_internal.h	/^typedef bitset_word_t *re_bitset_ptr_t;$/;"	t
+re_charset_t	regex_internal.h	/^} re_charset_t;$/;"	t	typeref:struct:__anon6
+re_comp	regcomp.c	/^re_comp (s)$/;"	f
+re_comp_buf	regcomp.c	/^static struct re_pattern_buffer re_comp_buf;$/;"	v	typeref:struct:re_pattern_buffer	file:
+re_compile_fastmap	regex.c	50;"	d	file:
+re_compile_fastmap_iter	regcomp.c	/^re_compile_fastmap_iter (regex_t *bufp, const re_dfastate_t *init_state,$/;"	f	file:
+re_compile_internal	regcomp.c	/^re_compile_internal (regex_t *preg, const char * pattern, size_t length,$/;"	f	file:
+re_compile_pattern	regcomp.c	/^re_compile_pattern (pattern, length, bufp)$/;"	f
+re_compile_pattern	regex.c	45;"	d	file:
+re_const_bitset_ptr_t	regex_internal.h	/^typedef const bitset_word_t *re_const_bitset_ptr_t;$/;"	t
+re_context_type	regex_internal.h	/^} re_context_type;$/;"	t	typeref:enum:__anon3
+re_copy_regs	regexec.c	/^re_copy_regs (regs, pmatch, nregs, regs_allocated)$/;"	f	file:
+re_dfa_add_node	regex_internal.c	/^re_dfa_add_node (re_dfa_t *dfa, re_token_t token)$/;"	f	file:
+re_dfa_t	regex_internal.h	/^struct re_dfa_t$/;"	s
+re_dfa_t	regex_internal.h	/^typedef struct re_dfa_t re_dfa_t;$/;"	t	typeref:struct:re_dfa_t
+re_dfastate_t	regex_internal.h	/^struct re_dfastate_t$/;"	s
+re_dfastate_t	regex_internal.h	/^typedef struct re_dfastate_t re_dfastate_t;$/;"	t	typeref:struct:re_dfastate_t
+re_fail_stack_ent_t	regex_internal.h	/^struct re_fail_stack_ent_t$/;"	s
+re_fail_stack_t	regex_internal.h	/^struct re_fail_stack_t$/;"	s
+re_free	regex_internal.h	442;"	d
+re_malloc	regex_internal.h	440;"	d
+re_match	regex.c	41;"	d	file:
+re_match	regexec.c	/^re_match (bufp, string, length, start, regs)$/;"	f
+re_match_2	regex.c	39;"	d	file:
+re_match_context_t	regex_internal.h	/^} re_match_context_t;$/;"	t	typeref:struct:__anon12
+re_max_failures	regex.c	/^int re_max_failures = 2000;$/;"	v
+re_node_set	regex_internal.h	/^} re_node_set;$/;"	t	typeref:struct:__anon4
+re_node_set_add_intersect	regex_internal.c	/^re_node_set_add_intersect (re_node_set *dest, const re_node_set *src1,$/;"	f	file:
+re_node_set_alloc	regex_internal.c	/^re_node_set_alloc (re_node_set *set, int size)$/;"	f	file:
+re_node_set_compare	regex_internal.c	/^re_node_set_compare (const re_node_set *set1, const re_node_set *set2)$/;"	f
+re_node_set_contains	regex_internal.c	/^re_node_set_contains (const re_node_set *set, int elem)$/;"	f
+re_node_set_empty	regex_internal.h	669;"	d
+re_node_set_free	regex_internal.h	670;"	d
+re_node_set_init_1	regex_internal.c	/^re_node_set_init_1 (re_node_set *set, int elem)$/;"	f	file:
+re_node_set_init_2	regex_internal.c	/^re_node_set_init_2 (re_node_set *set, int elem1, int elem2)$/;"	f	file:
+re_node_set_init_copy	regex_internal.c	/^re_node_set_init_copy (re_node_set *dest, const re_node_set *src)$/;"	f	file:
+re_node_set_init_empty	regex_internal.h	666;"	d
+re_node_set_init_union	regex_internal.c	/^re_node_set_init_union (re_node_set *dest, const re_node_set *src1,$/;"	f	file:
+re_node_set_insert	regex_internal.c	/^re_node_set_insert (re_node_set *set, int elem)$/;"	f	file:
+re_node_set_insert_last	regex_internal.c	/^re_node_set_insert_last (re_node_set *set, int elem)$/;"	f	file:
+re_node_set_merge	regex_internal.c	/^re_node_set_merge (re_node_set *dest, const re_node_set *src)$/;"	f	file:
+re_node_set_remove	regex_internal.h	667;"	d
+re_node_set_remove_at	regex_internal.c	/^re_node_set_remove_at (re_node_set *set, int idx)$/;"	f	file:
+re_nsub	regex.h	/^  size_t re_nsub;$/;"	m	struct:re_pattern_buffer
+re_pattern_buffer	regex.h	/^struct re_pattern_buffer$/;"	s
+re_realloc	regex_internal.h	441;"	d
+re_registers	regex.h	/^struct re_registers$/;"	s
+re_search	regex.c	43;"	d	file:
+re_search_2	regex.c	48;"	d	file:
+re_search_2_stub	regexec.c	/^re_search_2_stub (bufp, string1, length1, string2, length2, start, range, regs,$/;"	f	file:
+re_search_internal	regexec.c	/^re_search_internal (preg, string, length, start, range, stop, nmatch, pmatch,$/;"	f	file:
+re_search_stub	regexec.c	/^re_search_stub (bufp, string, length, start, range, stop, regs, ret_len)$/;"	f	file:
+re_set_fastmap	regcomp.c	/^re_set_fastmap (char *fastmap, int icase, int ch)$/;"	f
+re_set_registers	regex.c	37;"	d	file:
+re_set_registers	regexec.c	/^re_set_registers (bufp, regs, num_regs, starts, ends)$/;"	f
+re_set_syntax	regex.c	47;"	d	file:
+re_sift_context_t	regex_internal.h	/^} re_sift_context_t;$/;"	t	typeref:struct:__anon13
+re_state_table_entry	regex_internal.h	/^struct re_state_table_entry$/;"	s
+re_str	regex_internal.h	/^  char* re_str;$/;"	m	struct:re_dfa_t
+re_string_allocate	regex_internal.c	/^re_string_allocate (re_string_t *pstr, const char *str, int len, int init_len,$/;"	f	file:
+re_string_byte_at	regex_internal.h	417;"	d
+re_string_char_size_at	regex_internal.h	/^re_string_char_size_at (const re_string_t *pstr, int idx)$/;"	f
+re_string_construct	regex_internal.c	/^re_string_construct (re_string_t *pstr, const char *str, int len,$/;"	f	file:
+re_string_construct_common	regex_internal.c	/^re_string_construct_common (const char *str, int len, re_string_t *pstr,$/;"	f	file:
+re_string_context_at	regex_internal.c	/^re_string_context_at (const re_string_t *input, int idx, int eflags)$/;"	f	file:
+re_string_cur_idx	regex_internal.h	414;"	d
+re_string_destruct	regex_internal.c	/^re_string_destruct (re_string_t *pstr)$/;"	f	file:
+re_string_elem_size_at	regex_internal.h	/^re_string_elem_size_at (const re_string_t *pstr, int idx)$/;"	f
+re_string_eoi	regex_internal.h	413;"	d
+re_string_fetch_byte	regex_internal.h	406;"	d
+re_string_fetch_byte_case	regex_internal.c	/^re_string_fetch_byte_case (re_string_t *pstr)$/;"	f
+re_string_first_byte	regex_internal.h	408;"	d
+re_string_get_buffer	regex_internal.h	415;"	d
+re_string_is_single_byte_char	regex_internal.h	410;"	d
+re_string_length	regex_internal.h	416;"	d
+re_string_peek_byte	regex_internal.h	404;"	d
+re_string_peek_byte_case	regex_internal.c	/^re_string_peek_byte_case (const re_string_t *pstr, int idx)$/;"	f
+re_string_realloc_buffers	regex_internal.c	/^re_string_realloc_buffers (re_string_t *pstr, int new_buf_len)$/;"	f	file:
+re_string_reconstruct	regex_internal.c	/^re_string_reconstruct (re_string_t *pstr, int idx, int eflags)$/;"	f	file:
+re_string_set_index	regex_internal.h	419;"	d
+re_string_skip_bytes	regex_internal.h	418;"	d
+re_string_skip_chars	regex_internal.c	/^re_string_skip_chars (re_string_t *pstr, int new_raw_idx, wint_t *last_wc)$/;"	f	file:
+re_string_t	regex_internal.h	/^struct re_string_t$/;"	s
+re_string_t	regex_internal.h	/^typedef struct re_string_t re_string_t;$/;"	t	typeref:struct:re_string_t
+re_string_translate_buffer	regex_internal.c	/^re_string_translate_buffer (re_string_t *pstr)$/;"	f	file:
+re_string_wchar_at	regex_internal.h	/^re_string_wchar_at (const re_string_t *pstr, int idx)$/;"	f
+re_sub_match_last_t	regex_internal.h	/^} re_sub_match_last_t;$/;"	t	typeref:struct:__anon10
+re_sub_match_top_t	regex_internal.h	/^} re_sub_match_top_t;$/;"	t	typeref:struct:__anon11
+re_token_t	regex_internal.h	/^} re_token_t;$/;"	t	typeref:struct:__anon7
+re_token_type_t	regex_internal.h	/^} re_token_type_t;$/;"	t	typeref:enum:__anon5
+reg_errcode_t	regex.h	/^} reg_errcode_t;$/;"	t	typeref:enum:__anon1
+reg_syntax_t	regex.h	/^typedef unsigned long int reg_syntax_t;$/;"	t
+regcomp	regcomp.c	/^regcomp (preg, pattern, cflags)$/;"	f
+regcomp	regex.c	34;"	d	file:
+regerror	regex.c	35;"	d	file:
+regex_t	regex.h	/^typedef struct re_pattern_buffer regex_t;$/;"	t	typeref:struct:re_pattern_buffer
+regexec	regex.c	33;"	d	file:
+regexec	regexec.c	/^regexec (preg, string, nmatch, pmatch, eflags)$/;"	f
+regfree	regcomp.c	/^regfree (preg)$/;"	f
+regfree	regex.c	32;"	d	file:
+register_state	regex_internal.c	/^register_state (const re_dfa_t *dfa, re_dfastate_t *newstate,$/;"	f	file:
+regmatch_t	regex.h	/^} regmatch_t;$/;"	t	typeref:struct:__anon2
+regoff_t	regex.h	/^typedef int regoff_t;$/;"	t
+regs	regex_internal.h	/^  regmatch_t *regs;$/;"	m	struct:re_fail_stack_ent_t
+regs	regexec.c	/^    struct re_registers *regs;$/;"	v	typeref:struct:re_registers
+right	regex_internal.h	/^  struct bin_tree_t *right;$/;"	m	struct:bin_tree_t	typeref:struct:bin_tree_t::bin_tree_t
+rm_eo	regex.h	/^  regoff_t rm_eo;  \/* Byte offset from string's start to substring's end.  *\/$/;"	m	struct:__anon2
+rm_so	regex.h	/^  regoff_t rm_so;  \/* Byte offset from string's start to substring's start.  *\/$/;"	m	struct:__anon2
+s_reg_t	regex.h	/^typedef long int s_reg_t;$/;"	t
+sb_char	regex_internal.h	/^  re_bitset_ptr_t sb_char;$/;"	m	struct:re_dfa_t
+sbcset	regex_internal.h	/^    re_bitset_ptr_t sbcset;	\/* for SIMPLE_BRACKET *\/$/;"	m	union:__anon7::__anon8
+search_cur_bkref_entry	regexec.c	/^search_cur_bkref_entry (const re_match_context_t *mctx, int str_idx)$/;"	f	file:
+search_duplicated_node	regcomp.c	/^search_duplicated_node (const re_dfa_t *dfa, int org_node,$/;"	f	file:
+set_regs	regexec.c	/^set_regs (const regex_t *preg, const re_match_context_t *mctx, size_t nmatch,$/;"	f	file:
+sift_ctx_init	regexec.c	/^sift_ctx_init (re_sift_context_t *sctx, re_dfastate_t **sifted_sts,$/;"	f	file:
+sift_states_backward	regexec.c	/^sift_states_backward (const re_match_context_t *mctx, re_sift_context_t *sctx)$/;"	f	file:
+sift_states_bkref	regexec.c	/^sift_states_bkref (const re_match_context_t *mctx, re_sift_context_t *sctx,$/;"	f	file:
+sift_states_iter_mb	regexec.c	/^sift_states_iter_mb (const re_match_context_t *mctx, re_sift_context_t *sctx,$/;"	f	file:
+sifted_states	regex_internal.h	/^  re_dfastate_t **sifted_states;$/;"	m	struct:__anon13
+stack	regex_internal.h	/^  struct re_fail_stack_ent_t *stack;$/;"	m	struct:re_fail_stack_t	typeref:struct:re_fail_stack_t::re_fail_stack_ent_t
+start	regex.h	/^  regoff_t *start;$/;"	m	struct:re_registers
+start	regexec.c	/^    int length, start, range;$/;"	v
+start	regexec.c	/^    int length1, length2, start, range, stop;$/;"	v
+start	regexec.c	/^    int length1, length2, start, stop;$/;"	v
+state_array_t	regex_internal.h	/^} state_array_t;$/;"	t	typeref:struct:__anon9
+state_hash_mask	regex_internal.h	/^  unsigned int state_hash_mask;$/;"	m	struct:re_dfa_t
+state_log	regex_internal.h	/^  re_dfastate_t **state_log;$/;"	m	struct:__anon12
+state_log_top	regex_internal.h	/^  int state_log_top;$/;"	m	struct:__anon12
+state_table	regex_internal.h	/^  struct re_state_table_entry *state_table;$/;"	m	struct:re_dfa_t	typeref:struct:re_dfa_t::re_state_table_entry
+stop	regex_internal.h	/^  int stop;$/;"	m	struct:re_string_t
+stop	regexec.c	/^    int length1, length2, start, range, stop;$/;"	v
+stop	regexec.c	/^    int length1, length2, start, stop;$/;"	v
+str_idx	regex_internal.h	/^  int str_idx; \/* The position NODE match at.  *\/$/;"	m	struct:__anon10
+str_idx	regex_internal.h	/^  int str_idx;$/;"	m	struct:__anon11
+str_idx	regex_internal.h	/^  int str_idx;$/;"	m	struct:re_backref_cache_entry
+str_tree	regex_internal.h	/^  bin_tree_t *str_tree;$/;"	m	struct:re_dfa_t
+str_tree_storage	regex_internal.h	/^  bin_tree_storage_t *str_tree_storage;$/;"	m	struct:re_dfa_t
+str_tree_storage_idx	regex_internal.h	/^  int str_tree_storage_idx;$/;"	m	struct:re_dfa_t
+sub_epsilon_src_nodes	regexec.c	/^sub_epsilon_src_nodes (const re_dfa_t *dfa, int node, re_node_set *dest_nodes,$/;"	f	file:
+sub_tops	regex_internal.h	/^  re_sub_match_top_t **sub_tops;$/;"	m	struct:__anon12
+subexp_from	regex_internal.h	/^  int subexp_from;$/;"	m	struct:re_backref_cache_entry
+subexp_map	regex_internal.h	/^  int *subexp_map;$/;"	m	struct:re_dfa_t
+subexp_to	regex_internal.h	/^  int subexp_to;$/;"	m	struct:re_backref_cache_entry
+syntax	regex_internal.h	/^  reg_syntax_t syntax;$/;"	m	struct:re_dfa_t
+tip_context	regex_internal.h	/^  unsigned int tip_context;$/;"	m	struct:re_string_t
+token	regex_internal.h	/^  re_token_t token;$/;"	m	struct:bin_tree_t
+trans	regex_internal.h	/^  RE_TRANSLATE_TYPE trans;$/;"	m	struct:re_string_t
+transit_state	regexec.c	/^transit_state (reg_errcode_t *err, re_match_context_t *mctx,$/;"	f	file:
+transit_state_bkref	regexec.c	/^transit_state_bkref (re_match_context_t *mctx, const re_node_set *nodes)$/;"	f	file:
+transit_state_mb	regexec.c	/^transit_state_mb (re_match_context_t *mctx, re_dfastate_t *pstate)$/;"	f	file:
+trtable	regex_internal.h	/^  struct re_dfastate_t **trtable, **word_trtable;$/;"	m	struct:re_dfastate_t	typeref:struct:re_dfastate_t::re_dfastate_t
+type	regex_internal.h	/^  bracket_elem_type type;$/;"	m	struct:__anon15
+type	regex_internal.h	/^  re_token_type_t type : 8;$/;"	m	struct:__anon7
+type	regex_internal.h	/^  re_token_type_t type;$/;"	m	struct:__anon7
+unused	regex_internal.h	/^  char unused;$/;"	m	struct:re_backref_cache_entry
+update_cur_sifted_state	regexec.c	/^update_cur_sifted_state (const re_match_context_t *mctx,$/;"	f	file:
+update_regs	regexec.c	/^update_regs (const re_dfa_t *dfa, regmatch_t *pmatch,$/;"	f	file:
+used_bkref_map	regex_internal.h	/^  bitset_word_t used_bkref_map;$/;"	m	struct:re_dfa_t
+utf8_sb_map	regcomp.c	/^static const bitset_t utf8_sb_map =$/;"	v	file:
+valid_len	regex_internal.h	/^  int valid_len;$/;"	m	struct:re_string_t
+valid_raw_len	regex_internal.h	/^  int valid_raw_len;$/;"	m	struct:re_string_t
+wch	regex_internal.h	/^    wchar_t wch;$/;"	m	union:__anon15::__anon16
+wcs	regex_internal.h	/^  wint_t *wcs;$/;"	m	struct:re_string_t
+weak_alias	regcomp.c	/^weak_alias (__re_compile_pattern, re_compile_pattern)$/;"	f
+weak_alias	regcomp.c	/^weak_alias (__re_set_syntax, re_set_syntax)$/;"	f
+weak_alias	regcomp.c	/^weak_alias (__regcomp, regcomp)$/;"	f
+weak_alias	regexec.c	/^weak_alias (__re_set_registers, re_set_registers)$/;"	f
+word_char	regex_internal.h	/^  bitset_t word_char;$/;"	m	struct:re_dfa_t
+word_char	regex_internal.h	/^  re_const_bitset_ptr_t word_char;$/;"	m	struct:re_string_t
+word_char	regex_internal.h	/^  unsigned int word_char : 1;$/;"	m	struct:__anon7
+word_ops_used	regex_internal.h	/^  unsigned char word_ops_used;$/;"	m	struct:re_string_t
+word_ops_used	regex_internal.h	/^  unsigned int word_ops_used : 1;$/;"	m	struct:re_dfa_t
+word_trtable	regex_internal.h	/^  struct re_dfastate_t **trtable, **word_trtable;$/;"	m	struct:re_dfastate_t	typeref:struct:re_dfastate_t::
